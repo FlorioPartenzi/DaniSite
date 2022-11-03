@@ -1,10 +1,12 @@
+@import "../cssVariables.scss";
 .deckblatt{
-  width: 100vw;
-  background-image: url('../../assets/img/150407_11437.jpg') ;
+  background-image: url('../../assets/img/deckblatt.jpg');
   background-size:cover;
   background-repeat: no-repeat;
-  height: 0%;
-  padding-top: 65vh;
-  padding-bottom: 25vh;
-  background-position: 0% -10vh;
+  background-position: center center;
+  height: calc((0.664 * 90vw ) - 110pt );
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }

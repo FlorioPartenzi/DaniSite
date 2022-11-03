@@ -1,0 +1,21 @@
+@import "../cssVariables.scss";
+
+.vitaDiv{
+  display: flex;
+  padding: 0 12vw;
+  margin: 4vh 0 0 0;
+}
+.vitaImg{
+  width: 20vw;
+}
+
+.vitaTextDiv{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.vitaTitle{
+  color: $dark-color;
+  margin: 6vh 0 1vh 0;
+  text-align: left;
+}
