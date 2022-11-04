@@ -1,0 +1,23 @@
+
+@import "../cssVariables.scss";
+.kontaktDiv{
+  background-image: url(../../assets/img/kontakt.jpg);
+  background-position: center bottom -5vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:initial;
+  padding: 25vh 0 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: $bright-color ;
+}
+
+.kontaktInfoDiv{
+  display: flex;
+  justify-content:center;
+}
+.kontaktInfoText{
+margin: 1vh 0.5vw ;
+}

@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { DeckblattComponent } from './deckblatt/deckblatt.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { VitaComponent } from './vita/vita.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DeckblattComponent,
     NavbarComponent,
-    VitaComponent
+    VitaComponent,
+    KontaktComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
