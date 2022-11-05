@@ -9,6 +9,7 @@ import { VitaComponent } from './vita/vita.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilmeComponent } from './filme/filme.component';
+import { TexteComponent } from './texte/texte.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FilmeComponent } from './filme/filme.component';
     VitaComponent,
     KontaktComponent,
     FooterComponent,
-    FilmeComponent
+    FilmeComponent,
+    TexteComponent
   ],
   imports: [
     BrowserModule,
