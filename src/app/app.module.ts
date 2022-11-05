@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { VitaComponent } from './vita/vita.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { FooterComponent } from './footer/footer.component';
+import { FilmeComponent } from './filme/filme.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     VitaComponent,
     KontaktComponent,
-    FooterComponent
+    FooterComponent,
+    FilmeComponent
   ],
   imports: [
     BrowserModule,

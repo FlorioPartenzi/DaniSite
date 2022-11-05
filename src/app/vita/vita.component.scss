@@ -1,14 +1,18 @@
 @import "../cssVariables.scss";
 
 .vitaDiv{
-  display: flex;
   padding: 0 12vw;
   margin: 4vh 0 0 0;
+  display: flex;
+}
+.vitaImgDiv{
+  width: 20vw;
+  position: relative;
 }
 .vitaImg{
-  width: 20vw;
+  object-fit: cover;
+  width: 100%;
 }
-
 .vitaTextDiv{
   text-align: left;
   display: flex;
@@ -16,6 +20,6 @@
 }
 .vitaTitle{
   color: $dark-color;
-  margin: 6vh 0 1vh 0;
+  margin: 2vh 0 1vh 0;
   text-align: left;
 }
