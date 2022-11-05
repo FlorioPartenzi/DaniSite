@@ -10,6 +10,7 @@ import { KontaktComponent } from './kontakt/kontakt.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilmeComponent } from './filme/filme.component';
 import { TexteComponent } from './texte/texte.component';
+import { ModerationComponent } from './moderation/moderation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TexteComponent } from './texte/texte.component';
     KontaktComponent,
     FooterComponent,
     FilmeComponent,
-    TexteComponent
+    TexteComponent,
+    ModerationComponent
   ],
   imports: [
     BrowserModule,
