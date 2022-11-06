@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FilmeComponent } from './filme/filme.component';
 import { TexteComponent } from './texte/texte.component';
 import { ModerationComponent } from './moderation/moderation.component';
+import { PodcastComponent } from './podcast/podcast.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ModerationComponent } from './moderation/moderation.component';
     FooterComponent,
     FilmeComponent,
     TexteComponent,
-    ModerationComponent
+    ModerationComponent,
+    PodcastComponent
   ],
   imports: [
     BrowserModule,

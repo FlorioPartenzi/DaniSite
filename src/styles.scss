@@ -22,3 +22,32 @@ h2{
   font-weight: lighter;
   margin: 0%;
 }
+
+a{
+  color: $pink-color;
+  text-decoration: none;
+}
+
+.sectionDiv{
+  padding: 0 12vw;
+  margin: 4vh 0 0 0;
+  display: flex;
+}
+.sectionTitle{
+  text-align: left;
+}
+.sectionIconDiv{
+  width: 20vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.sectionIcon{
+  width: 10vw;
+}
+.anchor{
+  display: block;
+  height: 10vh; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
