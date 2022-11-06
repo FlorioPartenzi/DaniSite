@@ -2,3 +2,10 @@
 .podcast{
   margin-bottom: 10vh;
 }
+.podcastLinkDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.podcastLinkDiv p {
+  color:  $pink-color;
+}
