@@ -1,27 +1,29 @@
 @import "../cssVariables.scss";
+$groesse: 16vw;
+
 @keyframes scrollUp {
  0% {
   top: 0vw;
-  background-position: center center;
+  background-position: center -1.5vw;
 }
 100% {
-  top: -16vw;
-  background-position: center 8vw;
+  top: -$groesse;
+  background-position: center ($groesse/2);
  }
 }
 
 .skillContainerDiv{
   position: relative;
-  width: 16vw;
-  height: 16vw;
+  width: $groesse;
+  height: ($groesse - 3vw);
   overflow: hidden;
 }
 .skillInnerContainerDiv{
   position: absolute;
-  width: 16vw;
-  height: 16vw;
+  width: $groesse;
+  height: $groesse;
   top: 0vh;
-  background-position: center center;
+  background-position: center -1.5vw ;
   background-size: contain;
 }
 .skillContainerDiv :hover{
