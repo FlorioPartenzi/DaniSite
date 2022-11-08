@@ -1,0 +1,10 @@
+<div></div>
+<ul class="skillListDiv">
+  <li *ngFor="let item of firstTitle; index as i">
+    <app-skill
+      [title]="firstTitle[i].title"
+      [text]="firstTitle[i].text"
+      [imgUrl]="firstTitle[i].img"
+    ></app-skill>
+  </li>
+</ul>

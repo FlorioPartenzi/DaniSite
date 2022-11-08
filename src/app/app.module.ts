@@ -12,6 +12,8 @@ import { FilmeComponent } from './filme/filme.component';
 import { TexteComponent } from './texte/texte.component';
 import { ModerationComponent } from './moderation/moderation.component';
 import { PodcastComponent } from './podcast/podcast.component';
+import { SkillComponent } from './skill/skill.component';
+import { SkillListComponent } from './skill-list/skill-list.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { PodcastComponent } from './podcast/podcast.component';
     FilmeComponent,
     TexteComponent,
     ModerationComponent,
-    PodcastComponent
+    PodcastComponent,
+    SkillComponent,
+    SkillListComponent
   ],
   imports: [
     BrowserModule,
