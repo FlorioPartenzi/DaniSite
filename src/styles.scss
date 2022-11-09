@@ -35,21 +35,23 @@ a{
 }
 
 .sectionDiv{
-  padding: 0 12vw;
+  padding: 0 12vw 0 12vw;
   margin: 4vh 0 0 0;
   display: flex;
 }
 .sectionTitle{
   text-align: left;
+  margin: 0 0 0 0 ;
 }
 .sectionIconDiv{
   width: 20vw;
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .sectionIcon{
-  width: 10vw;
+  width: 5vw;
+  margin:  0 2vw;
 }
 .anchor{
   display: block;

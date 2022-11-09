@@ -14,6 +14,8 @@ import { ModerationComponent } from './moderation/moderation.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { SkillComponent } from './skill/skill.component';
 import { SkillListComponent } from './skill-list/skill-list.component';
+import { BuchListeComponent } from './buch-liste/buch-liste.component';
+import { BuchComponent } from './buch/buch.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { SkillListComponent } from './skill-list/skill-list.component';
     ModerationComponent,
     PodcastComponent,
     SkillComponent,
-    SkillListComponent
+    SkillListComponent,
+    BuchListeComponent,
+    BuchComponent
   ],
   imports: [
     BrowserModule,

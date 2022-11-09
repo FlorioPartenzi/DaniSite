@@ -1,0 +1,5 @@
+<ul class="buchListDiv">
+  <li *ngFor="let item of buchListe; index as i">
+    <app-buch [text]="buchListe[i].text" [imgUrl]="buchListe[i].img"></app-buch>
+  </li>
+</ul>

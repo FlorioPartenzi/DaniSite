@@ -29,6 +29,7 @@ export class SkillListComponent implements OnInit {
       img: 'treffsicher.jpg',
     },
   ];
+  // liste: [{title: String, text: String, img: String}];
   constructor() {
     // this.firstTitle = 'AAA';
   }
