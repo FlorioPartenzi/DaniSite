@@ -11,7 +11,7 @@ export class SkillListComponent implements OnInit {
     {
       title: 'AUSDAUER',
       text: 'Kein Problem! Joggen immer gerne und manchmal auch für einen Sprint zu haben.',
-      img: 'ausdauer.jpg',
+      img: 'ausdauer1.jpg',
     },
     {
       title: 'GELASSEN',
